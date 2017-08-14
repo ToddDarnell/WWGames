@@ -1,0 +1,483 @@
+<html>
+
+<head>
+<script language="JavaScript" src="cookieCarty.js"></script>
+<title>WorldWide Games.com - The Best New and Used Games</title>
+<link href="WW%20Games.css" rel="stylesheet" type="text/css">
+<style>
+BODY {scrollbar-3dlight-color:;
+           scrollbar-arrow-color:yellow;
+           scrollbar-base-color:blue;
+           scrollbar-darkshadow-color:;
+           scrollbar-face-color:;
+           scrollbar-highlight-color:aqua;
+           scrollbar-shadow-color:}
+</style>
+<SCRIPT LANGUAGE="JavaScript">
+      <!-- 
+      		function validate(bllForm) 
+  		{
+			var valid = true;
+			var fieldList = "";
+
+			var fname = bllForm.T1.value;
+			if (fname.length < 2) 
+			{
+				valid = false;
+				fieldList += "\t- First Name must be at least 2 letters long.\n";
+			}
+			
+			var lname = bllForm.T2.value;
+			if (lname.length < 2) 
+			{
+				valid = false;
+				fieldList += "\t- Last Name must be at least 2 letters long.\n";
+			}
+			
+			var addr1 = bllForm.T4.value;
+			if (addr1.length < 1) 
+			{
+				valid = false;
+				fieldList += "\t- Please enter a billing address.\n";
+			}
+			
+			var city = bllForm.T6.value;
+			if (city.length < 1) 
+			{
+				valid = false;
+				fieldList += "\t- Please enter a valid city.\n";
+			}
+			
+  	
+		    var statpro = bllForm.D1.value; 	
+  	        if(bllForm.D1.selectedIndex == 0)
+  	        {
+	        valid = false;
+	        fieldList += "\t- Please select a state or provence.\n";  	       
+  	        }			
+
+		    var zip = bllForm.T7.value;
+			if (zip.length != 5) 
+			{
+				valid = false;
+				fieldList += "\t- Please enter a valid zip code.\n";
+			}
+			
+		    var cntry = bllForm.D2.value; 	
+  	        if(bllForm.D2.selectedIndex == 0)
+  	        {
+	        valid = false;
+	        fieldList += "\t- Please select a country.\n";  	       
+  	        }				
+			
+			var email = bllForm.T3.value;
+   			var atIndex = email.indexOf("@");
+			var dotIndex = email.lastIndexOf(".");
+	
+	    	if (atIndex == -1) 
+	    	{
+			valid = false;
+	    	fieldList += "\t- Please enter a valid Email address including an @ symbol.\n";
+			}
+
+			if (dotIndex == -1 || atIndex > dotIndex) 
+			{
+			valid = false;
+			fieldList += "\t- Please enter a valid Email address including a period.\n";
+			}
+			
+		    var statpro = bllForm.D3.value; 	
+  	        if(bllForm.D3.selectedIndex == 0)
+  	        {
+	        valid = false;
+	        fieldList += "\t- Please select a payment type.\n";  	       
+  	        }	
+
+		    var cc1 = bllForm.T10.value;
+			if (cc1.length != 4) 
+			{
+				valid = false;
+				fieldList += "\t- Please enter a valid credit card number.\n";
+			}
+
+		    var cc1 = bllForm.T11.value;
+			if (cc1.length != 4) 
+			{
+				valid = false;
+				fieldList += "\t- Please enter a valid credit card number.\n";
+			}
+
+		    var cc1 = bllForm.T12.value;
+			if (cc1.length != 4) 
+			{
+				valid = false;
+				fieldList += "\t- Please enter a valid credit card number.\n";
+			}
+
+		    var cc1 = bllForm.T13.value;
+			if (cc1.length != 4) 
+			{
+				valid = false;
+				fieldList += "\t- Please enter a valid credit card number.\n";
+			}
+			
+		    var statpro = bllForm.D4.value; 	
+  	        if(bllForm.D4.selectedIndex == 0)
+  	        {
+	        valid = false;
+	        fieldList += "\t- Please select a valid credit card expiration date.\n";  	       
+  	        }
+			
+		    var statpro = bllForm.D5.value; 	
+  	        if(bllForm.D4.selectedIndex == 0)
+  	        {
+	        valid = false;
+	        fieldList += "\t- Please select a valid credit card expiration date.\n";  	       
+  	        }
+
+		    var ccfname = bllForm.T14.value;
+			if (ccfname.length < 2)
+			{
+				valid = false;
+				fieldList += "\t- Please enter a valid card holder name.\n";
+			}  
+
+		    var cclname = bllForm.T15.value;
+			if (cclname.length < 2)
+			{
+				valid = false;
+				fieldList += "\t- Please enter a valid card holder name.\n";
+			} 				          	        													
+			
+			if (!valid) 
+			{
+			var msg = "We're sorry, but the form cannot be submitted as completed.\n Please fix the following problems:\n";
+			msg += fieldList;
+			alert(msg);
+				return false;
+
+			}
+			
+			if(valid) 
+			{
+			// Form passes vaildations - Redirect to Thank You Page
+  			window.location.href= "WWGamesThankYou.htm";
+  			return true;
+			}
+				
+		}
+            		
+	  -->
+
+</SCRIPT>
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="self.focus();document.Billing.T1.focus()">
+
+<!-- Header --> 
+<table border="0" cellpadding="0" cellspacing="0" width="100%" id="AutoNumber1" height="1" style="border-collapse: collapse" bordercolor="#111111" cellpadding="0"> 
+  <tr background="WW%20Games%20-%20Graphics/Backgrounds/SMB%20Clouds.png" >
+    <td width="50%" height="202" colspan="3" align=left valign="top" background="WW%20Games%20-%20Graphics/Backgrounds/CloudA.PNG">
+       <a href="index.php"><img border="0" src="WWGames%20Colored%20Text%20Smaller%20&%20Transparent.GIF" width="431" height="109"></a></td>
+    <td width=50% valign=top align=right background="WW%20Games%20-%20Graphics/Backgrounds/CloudB.PNG">
+    <a href="WW%20Games%20FAQ.htm"><img border="0" src="WW%20Games%20-%20Graphics/Buttons%20-%20Square%20-%20Dodger%20Blue%20-%20Font%2030/Site%20FAQs%20%20Blue%20Square.gif" width="94" height="27"></a><a href="WW%20Games%20Shopping%20Cart%20Page.htm"><img border="0" src="WW%20Games%20-%20Graphics/Buttons%20-%20Square%20-%20Dodger%20Blue%20-%20Font%2030/View%20Cart%20Blue%20Square.gif" width="94" height="27"></a><img border="0" src="WW%20Games%20-%20Graphics/Buttons%20-%20Square%20-%20Dodger%20Blue%20-%20Font%2030/My%20Account%20Blue%20Square.gif" width="94" height="27"><a href="WW%20Games%20About%20Us.htm"><img border="0" src="WW%20Games%20-%20Graphics/Buttons%20-%20Square%20-%20Dodger%20Blue%20-%20Font%2030/About%20Us%20Blue%20Square.gif" width="94" height="27"></a>      
+  </tr>
+</table>
+  
+<!--- Left Navigation Menu --->
+<table border="0" cellspacing="7" width="100%" id="AutoNumber1" height="1" style="border-collapse: collapse" bordercolor="#111111" cellpadding="0"> 
+  <tr>
+    <td width="200" height="1" align="center" valign="top" bordercolor="#FFFFFF">
+    <span style="position: absolute; left: 22; top: 412">
+    <img border="0" src="WW%20Games%20-%20Graphics/Buttons%20-%20Oval%20W%20Shadows%20-%20Dodger%20Blue%20-%20Font%2033%20&%2035/Retro%20Games%20Blue.gif" width="183" height="28"></span><p>
+    <span style="position: absolute; left: 22; top: 440">
+    <img border="0" src="WW%20Games%20-%20Graphics/Buttons%20-%20Oval%20W%20Shadows%20-%20Dodger%20Blue%20-%20Font%2033%20&%2035/8-Bit%20Era%20Blue%20A.gif" width="183" height="28"></span></p>
+    <table border="1" cellspacing="1" width="103%" id="AutoNumber2" height="286">
+      <tr>       
+        <td width="100%" height="33" bgcolor="#006ED4">
+        	<p align="center"><b><font face="Tahoma" size="4" color="#FFFFFF">
+            Product Search</font></b></td>
+      </tr>
+      <tr>
+        <td width="100%" height="74">
+        	<p align="center">
+        	<select name=Deals size=1 onchange="window.location.href=this.value;"><BR> 
+        		<option selected value=1>Select an Area...<BR>    
+        		<option value=2>Retro Consoles<BR>
+        		<option value=3>8-Bit Consoles<BR>
+        		<option value="16-Bit%20Era.htm">16-Bit Consoles<br>
+        		<option value=5>32 & 64 Bit Consoles<BR>
+        		<option value=6>128 Bit Consoles<BR>   
+        		<option value=7>Next Gen<BR>
+        		<option value=8>Handhelds<BR>
+        		<option value=9>Anime<BR>
+        		<option value=10>Toys and Collectables<BR>
+        	</select><br>
+        <INPUT TYPE="text" NAME="search" SIZE="20"><input type=button name="searchbutton" value="Go"></button></td>
+      </tr>
+      <tr>
+        <td width="100%" height="37" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" bgcolor="#006ED4">
+        <p align="center">
+        <span style="position: absolute; left: 22; top: 496">
+        <img border="0" src="WW%20Games%20-%20Graphics/Buttons%20-%20Oval%20W%20Shadows%20-%20Dodger%20Blue%20-%20Font%2033%20&%2035/32%20&%2064-Bit%20Era%20Blue.gif" width="183" height="28"></span><span style="position: absolute; left: 22; top: 468"><a href="16-Bit%20Era.htm"><img border="0" src="WW%20Games%20-%20Graphics/Buttons%20-%20Oval%20W%20Shadows%20-%20Dodger%20Blue%20-%20Font%2033%20&%2035/16-Bit%20Era%20Blue.gif" width="183" height="28"></a></span><span style="position: absolute; left: 22; top: 524"><a href="128-Bit%20Era.htm"><img border="0" src="WW%20Games%20-%20Graphics/Buttons%20-%20Oval%20W%20Shadows%20-%20Dodger%20Blue%20-%20Font%2033%20&%2035/128-Bit%20Era%20Blue.gif" width="183" height="28" onmouseover="src='WW%20Games%20-%20Graphics/Buttons%20-%20Oval%20W%20Shadows%20-%20Firebrick%20-%20Font%2033%20&%2035/128-Bit%20Era%20Red.gif'" onmouseout="src='WW%20Games%20-%20Graphics/Buttons%20-%20Oval%20W%20Shadows%20-%20Dodger%20Blue%20-%20Font%2033%20&%2035/128-Bit%20Era%20Blue.gif'"></a></span><span style="position: absolute; left: 22; top: 552"><img border="0" src="WW%20Games%20-%20Graphics/Buttons%20-%20Oval%20W%20Shadows%20-%20Dodger%20Blue%20-%20Font%2033%20&%2035/Next%20Gen%20Blue.gif" width="183" height="28"></span><span style="position: absolute; left: 22; top: 580"><img border="0" src="WW%20Games%20-%20Graphics/Buttons%20-%20Oval%20W%20Shadows%20-%20Dodger%20Blue%20-%20Font%2033%20&%2035/Handhelds%20Blue%20A.gif" width="183" height="28"></span><span style="position: absolute; left: 22; top: 636"><img border="0" src="WW%20Games%20-%20Graphics/Buttons%20-%20Oval%20W%20Shadows%20-%20Dodger%20Blue%20-%20Font%2033%20&%2035/Toys%20and%20Collectables%20Blue.gif" width="183" height="28"></span><span style="position: absolute; left: 22; top: 608"><img border="0" src="WW%20Games%20-%20Graphics/Buttons%20-%20Oval%20W%20Shadows%20-%20Dodger%20Blue%20-%20Font%2033%20&%2035/Anime%20Blue.gif" width="183" height="28"></span><b><font face="Tahoma" size="4" color="#FFFFFF">Select 
+        a Gaming Era</font></b></td>
+        
+<!--- <img border="0" onmouseover="src='WW%20Games%20-%20Graphics/Buttons%20-%20Oval%20W%20Shadows%20-%20Firebrick%20-%20Font%2033%20&%2035/128-Bit%20Era%20Red.gif'" width="183" height="28"  onmouseout="src='WW%20Games%20-%20Graphics/Buttons%20-%20Oval%20W%20Shadows%20-%20Dodger%20Blue%20-%20Font%2033%20&%2035/128-Bit%20Era%20Blue.gif'" width="183" height="28"> --->
+        
+      </tr>
+      <tr>
+        <td width="100%" height="302" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" bgcolor="#FFFFFF">
+        <span style="position: absolute; left: 22; top: 384">
+        <a href="index.php">
+        <img border="0" src="WW%20Games%20-%20Graphics/Buttons%20-%20Oval%20W%20Shadows%20-%20Dodger%20Blue%20-%20Font%2033%20&%2035/Home%20Blue.gif" width="183" height="28"></a></span></td>
+      </tr>
+    </table>
+    <p>
+<!-- Game Trade Central Logo Taken From http://store.videogamecentral.com/ -->
+    <img border="0" src="WW%20Games%20-%20Graphics/gtclogo.jpg" width="169" height="141"><p>
+    <img border="0" src="WW%20Games%20-%20Graphics/spacer.gif" width="200" height="0"></td>
+    
+<!--- Central Viewing Area --->    
+    <td width="54%" height="1" bordercolor="#FFFFFF" valign="top">
+    <table border="0" cellspacing="1" width="101%" id="AutoNumber3" height="611">
+      <tr>
+        <td width="100%" height="596" align="center" valign="top">
+        
+		<SCRIPT LANGUAGE="JavaScript">
+		<!-- Begin
+   	 		getCartData('ShopCart', '|');
+	    // End -->
+		</SCRIPT>
+		<!-- Real action will be "mailto:Billing@WorldWide-Games.com"  Address does not currently exist -->
+        <form method="POST" action="mailto:joepapalino@yahoo.com" name="Billing" enctype="text/plain" onSubmit="return validate(this);">
+          <p align="left">
+          <p>
+          <h3 align="left">Please Enter Your Billing Address</h3></p>
+          <p align="left">
+          &nbsp;<input type="text" name="T1" size="20"> First Name</p>
+          <p align="left">
+          </p>
+          <p align="left">
+          &nbsp;<input type="text" name="T2" size="20"> Last Name</p>
+          <p align="left">
+          &nbsp;<input type="text" name="T4" size="20"> Address 1</p>
+          <p align="left">
+          &nbsp;<input type="text" name="T5" size="20"> Address 2 </p>
+          <p align="left">
+          &nbsp;<input type="text" name="T6" size="20"> City</p>
+          <p align="left">
+          &nbsp;<select size="1" name="D1">
+          <option selected>Select One</option>
+			<option value="AL">Alabama</option>
+			<option value="AK">Alaska</option>
+			<option value="AZ">Arizona</option>
+			<option value="AR">Arkansas</option>
+			<option value="CA">California</option>
+			<option value="CO">Colorado</option>
+			<option value="CT">Connecticut</option>
+			<option value="DE">Delaware</option>
+			<option value="DC">Dist of Columbia</option>
+			<option value="FL">Florida</option>
+			<option value="GA">Georgia</option>
+			<option value="HI">Hawaii</option>
+			<option value="ID">Idaho</option>
+			<option value="IL">Illinois</option>
+			<option value="IN">Indiana</option>
+			<option value="IA">Iowa</option>
+			<option value="KS">Kansas</option>
+			<option value="KY">Kentucky</option>
+			<option value="LA">Louisiana</option>
+			<option value="ME">Maine</option>
+			<option value="MD">Maryland</option>
+			<option value="MA">Massachusetts</option>
+			<option value="MI">Michigan</option>
+			<option value="MN">Minnesota</option>
+			<option value="MS">Mississippi</option>
+			<option value="MO">Missouri</option>
+			<option value="MT">Montana</option>
+			<option value="NE">Nebraska</option>
+			<option value="NV">Nevada</option>
+			<option value="NH">New Hampshire</option>
+			<option value="NJ">New Jersey</option>
+			<option value="NM">New Mexico</option>
+			<option value="NY">New York</option>
+			<option value="NC">North Carolina</option>
+			<option value="ND">North Dakota</option>
+			<option value="OH">Ohio</option>
+			<option value="OK">Oklahoma</option>
+			<option value="OR">Oregon</option>
+			<option value="PA">Pennsylvania</option>
+			<option value="RI">Rhode Island</option>
+			<option value="SC">South Carolina</option>
+			<option value="SD">South Dakota</option>
+			<option value="TN">Tennessee</option>
+			<option value="TX">Texas</option>
+			<option value="UT">Utah</option>
+			<option value="VT">Vermont</option>
+			<option value="VA">Virginia</option>
+	       <option value="WA">Washington</option>
+	       <option value="WV">West Virginia</option>
+	       <option value="WI">Wisconsin</option>
+	       <option value="WY">Wyoming</option>
+          </select> State/Province</p>
+          <p align="left">
+          &nbsp;<input type="text" name="T7" size="20"> Zip/Postal Code</p>
+          <p align="left">
+          &nbsp;<select size="1" name="D2">
+          <option selected>Select One</option>
+          <option>United States of America</option>
+          <option>Canada</option>
+          </select> Country </p>
+          <p align="left">
+          &nbsp;<input type="text" name="T8" size="20"> Phone Number</p>
+          <p align="left">&nbsp;<input type="text" name="T3" size="20"> Email Address</p>
+          <h3 align="left">Please Enter Your Payment Information</h3>
+          <p></p>
+          <p align="left">
+          &nbsp;<select size="1" name="D3">
+          <option selected>Select One</option>
+          <option>Visa</option>
+          <option>Master Card</option>
+          <option>Discover</option>
+          <option>American Express</option>
+          </select> Payment Type</p>
+          <SCRIPT LANGUAGE="JavaScript">
+          function autotab(original,destination)
+          {
+		  if (original.getAttribute&&original.value.length==original.getAttribute("maxlength"))
+          destination.focus()
+          }
+          </script>
+          <p align="left">&nbsp;<input type="text" name="T10" size="4" onKeyup="autotab(this, document.Billing.T11)" maxlength=4>
+          <input type="text" name="T11" size="4" onKeyup="autotab(this, document.Billing.T12)" maxlength=4>
+          <input type="text" name="T12" size="4" onKeyup="autotab(this, document.Billing.T13)" maxlength=4>
+          <input type="text" name="T13" size="4"> Credit Card Number</p>
+          <p align="left">&nbsp;<select size="1" name="D4">
+          <option selected>Select One</option>
+          <option>January</option>
+          <option>February</option>
+          <option>March</option>
+          <option>April</option>
+          <option>May</option>
+          <option>June</option>
+          <option>July</option>
+          <option>August</option>
+          <option>September</option>
+          <option>October</option>
+          <option>November</option>
+          <option>December</option>
+          </select> <select size="1" name="D5">
+          <option selected>Select One</option>
+          <option>2006</option>
+          <option>2007</option>
+          <option>2008</option>
+          <option>2009</option>
+          <option>2010</option>
+          </select>Credit Card Expiration Date</p>
+          <p align="left">&nbsp;<input type="text" name="T14" size="20"> First Name 
+          on Credit Card</p>
+          <p align="left">&nbsp;<input type="text" name="T15" size="20"> Last Name 
+          on Credit Card</p>
+          
+<!--- *******Hidden Field******* --->
+         <SCRIPT LANGUAGE="JavaScript">
+         <!-- Begin
+   	 		var cartcookie = getCookieValue('ShopCart');
+   	 		document.write('<input name="T16" value="');
+		    document.write(cartcookie);
+			document.write('" type="hidden">');
+	    // End -->
+	      </script>
+	              
+          <p align="right"><input type="submit" value="Submit" name="B1"><input type="reset" value="Reset" name="B2"></p>
+		</form>
+        &nbsp;</td>
+      </tr>
+      </table>
+    
+    
+<!--- Footer --->    
+    <p align="center"><a href="WW%20Games%20SiteMap.htm">Site Map</a>&#160;&#183;&#160;
+	<A HREF="mailto:CustomerCare@WorldWide-Games.com"> 
+   Contact Us</A>&#160;&#183;&nbsp;
+    <a href="WW%20Games%20Customer%20Feedback%20Page.htm">Customer Feedback</a>&nbsp;·&#160;
+	<a href="WW%20Games%20About%20Us.htm">About Us</a>&#160;&#183;&#160;
+ 	<a href="WW%20Games%20FAQ.htm">FAQs</a></p>
+    </td>
+    
+    
+<!--- Right Menu --->    
+    <td width="220" height="1" align="center" valign="top">
+    <table border="1" cellspacing="1" width="100%" id="AutoNumber10" height="211">
+      <tr>
+        <td width="100%" height="33" bgcolor="#006ED4">
+        <p align="center"><b><font face="Tahoma" size="4" color="#FFFFFF">My 
+        Game Store</font></b></td>
+      </tr>
+      <tr>
+        <td width="100%" height="168" valign="top" bgcolor="#FFFFFF">
+        <p align="center">Username<br>
+        <INPUT TYPE="text" NAME="Username" SIZE="20"><br>
+        <align="center">Password<br>
+        <INPUT TYPE="password" NAME="txtPW" SIZE="20"><br>  
+        &nbsp;<p align="center">
+        <align="center"><a href="WW%20Games%20Shopping%20Cart%20Page.htm">View Cart</a>&nbsp;&nbsp;
+        <a href="WW%20Games%20Shopping%20Cart%20Page.htm">
+        <img border="0" src="WW%20Games%20-%20Graphics/topnav-carta.gif" width="25" height="21"><align="center">
+        
+        </a>
+        </td>
+      </tr>
+    </table>
+    <table border="1" cellspacing="1" width="100%" id="AutoNumber4" height="127">
+      <tr>
+        <td width="100%" height="35" background="WW%20Games%20-%20Graphics/Backgrounds/flame.jpg">
+        <p align="center"><b><font face="Tahoma" size="4">Blazing Hot Deals</font></b></td>
+      </tr>
+      <tr>
+        <td width="100%" height="82" background="WW%20Games%20-%20Graphics/Backgrounds/ist2_138490_background_intense_flames_2400_x_1398.jpg">
+        <p align="center">
+        <select name=Deals size=1 onchange="window.location.href=this.value;"><BR> 
+        		<option selected value=1>Select an Area...<BR>    
+        		<option value=2>Retro Consoles<BR>
+        		<option value=3>8-Bit Consoles<BR>
+        		<option value="16-Bit%20Era.htm">16-Bit Consoles<br>
+        		<option value=5>32 & 64 Bit Consoles<BR>
+        		<option value=6>128 Bit Consoles<BR>   
+        		<option value=7>Next Gen<BR>
+        		<option value=8>Handhelds<BR>
+        		<option value=9>Anime<BR>
+        		<option value=10>Toys and Collectables<BR>
+        	</select><br>
+
+        </td>
+      </tr>
+    </table>
+    <table border="0" cellspacing="0" width="100%" id="AutoNumber5" height="1" style="border-collapse: collapse" bordercolor="#111111" cellpadding="0">
+      <tr>
+        <td width="100%" height="38" bgcolor="#006ED4" bordercolor="#FFFFFF">
+        <p align="center"><b><font face="Tahoma" size="4" color="#FFFFFF">Rare 
+        Game Hunter</font></b></td>
+      </tr>
+      <tr>
+        <td width="100%" height="79" valign="top" bordercolor="#FFFFFF">
+        <p align="center">Looking for a Rare Game?<br>Click here and let the 
+        Game Hunter help you find rare gaming treasures&nbsp;&nbsp;&nbsp; </td>
+      </tr>
+      <tr>
+        <td width="100%" height="1" align="center" bordercolor="#FFFFFF" valign="bottom">
+<!-- Super Game Hunter Animated Gif Taken From http://store.videogamecentral.com/ -->        
+    <img border="0" src="WW%20Games%20-%20Graphics/Backgrounds/game-hunt-mario-anim.gif" width="167" height="80"></td>
+      </tr>
+      <tr>
+        <td width="100%" height="1" align="center" bordercolor="#FFFFFF" valign="bottom" background="WW%20Games%20-%20Graphics/Backgrounds/brick1.gif">
+    &nbsp;</td>
+      </tr>
+    </table>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img border="0" src="WW%20Games%20-%20Graphics/spacer.gif" width="200" height="0"></td></tr></table>
+<!--- End Right Menu --->
+ 
+
+</body>
+</html>
